@@ -32,6 +32,13 @@ let newoffice= Office.pop()
 let newoffice2= Office.shift()
 let newO = Office.push("")
 
+let newCounselor= Counselor.pop()
+let newCounselor2= Counselor.shift()
+let newCC = Counselor.push("")
+
+let newCTE= CTE.pop()
+let newCTE2= CTE.shift()
+let newC = CTE.push("")
 
 
 
