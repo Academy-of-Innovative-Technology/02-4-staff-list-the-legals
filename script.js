@@ -24,7 +24,18 @@ const STAFF = [Admin, Office, Counselor, CTE, History, Maths, Gym, Dean, Languag
 ////////// MAKE YOUR UPDATES WITHIN THIS SECTION //// 
 
 
+Admin.push("Drysdale", "Simpkins");
+console.log(Admin); // Output : ["Drysdale", "Woodham","Simpkins"]
 
+Admin.pop(); // Remove from the end
+    console.log(Admin); // Output: ["Sthal", "Peter", "Fowlkes"]
+
+    Admin.unshift("Admin"); // Add to the beginning
+    console.log(Admin); // Output: ["Drysdale", "Simpkins", "Woodam"]
+
+
+    Admin.sort(); // Sort elements
+    console.log(Admin); // Output: ["Drysdale", "Simpkins"]
 
 
 
