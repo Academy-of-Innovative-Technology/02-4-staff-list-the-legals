@@ -38,7 +38,42 @@ let newCC = Counselor.push("")
 
 let newCTE= CTE.pop()
 let newCTE2= CTE.shift()
-let newC = CTE.push("")
+let newC = CTE.push("Pelzer")
+
+let newHistory= History.pop()
+let newHistory2= History.shift()
+
+
+let newMaths= Maths.pop()
+let newMaths2= Maths.shift()
+
+
+let newGym= Gym.pop()
+let newGym2= Gym.shift()
+
+
+let newDean= Dean.pop()
+let newDean2= Dean.shift()
+
+
+let newLanguage= Language.pop()
+let newLanguage2= Language.shift()
+
+
+let newScience= Science.pop()
+let newScience2= Science.shift()
+
+
+let newEnglish= English.pop()
+let newEnglish2= English.shift()
+
+
+let newSupport= Support.pop()
+let newSupport2= Support.shift()
+
+
+let newSSC= SSC.pop()
+let newSSC2= SSC.shift()
 
 
 
