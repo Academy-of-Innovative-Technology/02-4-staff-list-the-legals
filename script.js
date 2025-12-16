@@ -28,9 +28,9 @@ Admin.pop(); Admin.pop(); Admin.pop(); Admin.pop(); Admin.pop(); Admin.pop();
 let newTeacher = Admin.pop()
 let newTeach= Admin.shift()
 
- let newT = Admin.push("Drysdale");
-let newTT = Admin.push("Simpkins");
-
+Admin.push("Drysdale");
+Admin.push("Simpkins");
+Admin.push("Woodham");
 
 let newoffice= Office.pop()
 let newoffice2= Office.shift()
@@ -38,7 +38,7 @@ let newO = Office.push("Gardner")
 let newOO= Office.push("Martinez")
 let newOOO= Office.push("Tirado")
 let newOOO0= Office.push("Valentin")
-
+let newOOO0o= Office.push("Swing")
 
 let newCounselor= Counselor.pop()
 let newCounselor2= Counselor.shift()
@@ -47,7 +47,7 @@ let newCCC= Counselor.push("Desroches")
 let newCCCC= Counselor.push("Molina")
 
 let newCTE= CTE.pop()
-let newCTE2= CTE.shift()
+let newCTE2= CTE.shift("Donahue")
 let newC = CTE.push("Pelzer");
 let newC2 = CTE.push("Alphonse");
 let newC3 = CTE.push("Pierre");
