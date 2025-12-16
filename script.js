@@ -28,9 +28,11 @@ Admin.pop(); Admin.pop(); Admin.pop(); Admin.pop(); Admin.pop(); Admin.pop();
 let newTeacher = Admin.pop()
 let newTeach= Admin.shift()
 
-Admin.push("Drysdale");
-Admin.push("Simpkins");
-Admin.push("Woodham");
+ let newT = Admin.push("Drysdale");
+let newTT = Admin.push("Simpkins");
+let newTTT
+ = Admin.push("Woodham");
+
 
 let newoffice= Office.pop()
 let newoffice2= Office.shift()
@@ -38,7 +40,7 @@ let newO = Office.push("Gardner")
 let newOO= Office.push("Martinez")
 let newOOO= Office.push("Tirado")
 let newOOO0= Office.push("Valentin")
-let newOOO0o= Office.push("Swing")
+
 
 let newCounselor= Counselor.pop()
 let newCounselor2= Counselor.shift()
@@ -47,19 +49,20 @@ let newCCC= Counselor.push("Desroches")
 let newCCCC= Counselor.push("Molina")
 
 let newCTE= CTE.pop()
-let newCTE2= CTE.shift("Donahue")
+let newCTE2= CTE.shift()
 let newC = CTE.push("Pelzer");
 let newC2 = CTE.push("Alphonse");
 let newC3 = CTE.push("Pierre");
 let newC4 = CTE.push("Sullivan");
 let newC5 = CTE.push("Ramsawak");
-let newC6 = CTE.push("Howell")
+let newC6 = CTE.push("")
 
 
 let newHistory= History.pop()
 let newHistory2= History.shift()
 let newH2 = History.push("Smith");
 let newH3 = History.push("Urena");
+
 
 let newMaths= Maths.pop()
 let newMaths2= Maths.shift()
@@ -92,12 +95,12 @@ let newScience2= Science.shift()
 let newS = Science.push("Davies");
 let newSs = Science.push("Lynch");
 
+
 let newEnglish= English.pop()
 let newEnglish2= English.shift()
-let newE = English.push("Griszell");
 let newEE = English.push("Grant");
 let newEEE = English.push("Gomez");
-let newEEEE = English.push("Tavares");
+let newEEEE = English.push("Tavares");       
 
 let newSupport= Support.pop()
 let newSupport2= Support.shift()
@@ -106,7 +109,7 @@ let newSu2 = Support.push("Rodriguez");
 let newSu3 = Support.push("Steele");
 let newSu4 = Support.push("Slater");
 let newSu5 = Support.push("Kabri");
-let newSu6 = Support.push("Shephard");
+let newwae = Support.push("Shepard");
 let newSu7 = Support.push("Ward");
 
 let newSSC= SSC.pop()
